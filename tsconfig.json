@@ -26,7 +26,14 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/tailwindcss"
+    ],
+    "types": [
+      "node"
+    ]
   },
   "include": [
     "next-env.d.ts",
